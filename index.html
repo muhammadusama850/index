@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA_RIZ_ALI</title>
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+</head>
+
+<body style="background: cornflowerblue; display: flex; flex-direction: column; align-items: center;">
+   <div class="bestfriendforever" style="border-radius: 50%; background: rgb(83, 13, 23); margin-top: 150px; height: 300px; width:340px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div class="usa">
+        <p style="color: white;">HI I AM <span style="color: red;">USAMA</span> BUKHARI</p>
+    </div>
+    <div class="riz">
+        <p style="color: white;">HI I AM <span style="color: red;">RIZWAN</span> AHMAD</p>
+    </div>
+    <div class="ali">
+        <p style="color: white;">HI I AM <span style="color: red;">ALI</span> ABBAS</p>
+    </div></div>
+</body>
+<script> 
+$(document).ready(function(){
+    $('.bestfriendforever').mouseover(function(){
+$('.bestfriendforever').animate({
+                    width:'400px',
+                    height:'400px',
+                    margin:'100px',
+                    fontSize:'20px',
+                },100).delay(1000);
+    });
+});
+
+</script>
+</html>
